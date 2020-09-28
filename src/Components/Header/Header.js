@@ -5,20 +5,20 @@ import logoWhite from "../Assets/logoWhite.png";
 const Header = () => {
   return (
     <header className="header">
-      <div className="logo-box">
-        <img className="logo" src={logoWhite} alt="logo" />
+      <div className="header__logo-box">
+        <img className="header__logo" src={logoWhite} alt="logo" />
       </div>
 
-      <div className="text-box">
+      <div className="header__text-box">
         <h1 className="heading-primary">
-          <span className="heading-primary-main">Outdoors</span>
-          <span className="heading-primary-sub"> is Where Life Happens</span>
+          <span className="heading-primary--main">Outdoors</span>
+          <span className="heading-primary--sub"> is Where Life Happens</span>
         </h1>
 
         <a
           href="https://mariabeckles.herokuapp.com/"
           target="blank"
-          className="btn btn-white btn-animated"
+          className="btn btn--white btn--animated"
         >
           Discover Our Tours
         </a>
