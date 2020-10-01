@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "../sass/main.scss";
 import logoWhite from "../Assets/logoWhite.png";
 
 const Header = () => {
