@@ -1,7 +1,7 @@
 import React from "react";
 import "../sass/main.scss";
 
-const Content = () => {
+const Grid = () => {
   return (
     <div className="grid-test">
       <div className="row">
@@ -41,4 +41,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Grid;
