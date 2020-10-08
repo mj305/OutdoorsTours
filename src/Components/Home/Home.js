@@ -1,6 +1,10 @@
 import React from "react";
 import "../sass/main.scss";
 
+import nat1Large from "../Assets/nat1Large.jpg";
+import nat2Large from "../Assets/nat2Large.jpg";
+import nat3Large from "../Assets/nat3Large.jpg";
+
 const Home = () => {
   return (
     <>
@@ -33,7 +37,25 @@ const Home = () => {
               Learn more&rarr;
             </a>
           </div>
-          <div className="col-1-of-2">IMMAGE</div>
+          <div className="col-1-of-2">
+            <div className="composition">
+              <img
+                className="composition__photo composition__photo--p1"
+                src={nat1Large}
+                alt="forest image"
+              />
+              <img
+                className="composition__photo composition__photo--p2"
+                src={nat2Large}
+                alt="biker on the road"
+              />
+              <img
+                className="composition__photo composition__photo--p3"
+                src={nat3Large}
+                alt="hiker on a hill"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
